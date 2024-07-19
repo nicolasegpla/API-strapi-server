@@ -17,10 +17,6 @@ module.exports = {
    * run jobs, or perform some special logic.
    */
   bootstrap(/*{ strapi }*/) {},
+  
 };
 
-export default {
-	async fetch(request, env, ctx) {
-		return new Response('Hello worker!');
-	},
-};
